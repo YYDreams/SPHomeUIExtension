@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SPHomeUIExtension_Example' do
+  pod 'SPHomeUIExtension', :path => '../'
+
+  target 'SPHomeUIExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
