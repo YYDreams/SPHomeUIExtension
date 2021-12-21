@@ -13,8 +13,6 @@ import SPMediator
 public extension SPMediator {
     
 
-    /// 直播管理列表 控制器
-    /// isExpired: 是否过期（点击新建、编辑、复制、去直播时提示“店铺已到期，请及时购买正式版本”）
     @objc func SPHomeUI_homeViewController() -> UIViewController? {
         if let controller = self.performTarget_SPHomeUI(action: "homeViewController") {
             return controller
